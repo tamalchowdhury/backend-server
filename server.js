@@ -13,6 +13,9 @@ app.use(bodyParser.urlencoded());
 
 // Version 1.0 api
 app.use('/api', routes);
+app.get('/', function (req, res) {
+  res.json({ page: 'Not Found' });
+});
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, function () {

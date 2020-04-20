@@ -1,8 +1,10 @@
 const express = require('express');
 const router = express.Router();
+const controller = require('./controller');
 
-router.get('/', function (req, res) {
-  res.json({ page: 'Homepage' });
-});
+// Display all the divisions on the root
+router.get('/', controller.showAllDivisions);
+
+router.get('/:division', controller.showSingleDivision);
 
 module.exports = router;

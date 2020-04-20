@@ -1,0 +1,28 @@
+{
+  "name": "42-node-backend-new-journey",
+  "version": "1.0.0",
+  "description": "Basic node backend server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TamalAnwar/backend-server.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "express",
+    "backend",
+    "rest",
+    "api"
+  ],
+  "author": "Tamal Anwar Chowdhury",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TamalAnwar/backend-server/issues"
+  },
+  "homepage": "https://github.com/TamalAnwar/backend-server#readme"
+}
